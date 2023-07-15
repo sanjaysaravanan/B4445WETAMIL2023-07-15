@@ -1,0 +1,58 @@
+Topics:
+
+  Create a Movies Application,
+    Pages:
+      Homepage ---> Should Display all the movies
+      Add Movie ---> Should have form where we can create new movie
+      Edit Movie ---> Should have prefilled form where we can edit old movie
+      Dashboard --> Separate page for displaying dashboard
+    
+    Functionalities, Add, Edit, Delete
+
+  react-router-dom:
+    Routing the DOM using the url path
+  
+    BrouserRouter:
+      parent wrapper tag which includes the routes tag
+
+    Routes:
+      includes all the routes
+
+    Route:
+      route with a pathname binds a dom to the path
+
+    Default Route:
+      default dom element when no route/path is found
+
+    Navigate:
+      navigates to the specified route
+      
+    Link:
+      Link - anchor to a specific path
+      Navigates from one page to the other page
+
+    path params:
+      useParams
+
+    query params:
+      useSearchParams
+
+Task:
+  Revise and Comse for 2023-07-16.
+
+  Day 23:
+    Design an UI to implement the CRUD
+    // CRUD - Create,Read,Update,Delete
+    // Dashboard - '/'
+    // List Users - '/users' --> List all the users
+    // Create User - '/create-user' --> Create a user
+    // Edit User - '/edit-user/:id' --> Edit a user with specified id
+    // profile - '/profile/:id' --> View a profile with specified id
+    // edit-profile – '/edit-profile/:id' --> Edit a edit with specified id
+
+
+Next Session:
+
+  Layout and Outlet, CRUD operations
+
+  using Mock API for add, edit, delete movies data
